@@ -4,7 +4,6 @@ class TheHome extends Component {
     const { dishes } = this.props;
     return (
       <div className="Section-home">
-        <h1>Home</h1>
         <h2>Lista de Platos</h2>
         <ul className= "dish-cards">
           {dishes.map((dish) => (
